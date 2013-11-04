@@ -322,13 +322,13 @@ textarea {
 }
 
 a {
-  color: black;
+  color: #000000;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: black;
+  color: #000000;
   text-decoration: underline;
 }
 
@@ -1909,7 +1909,7 @@ output {
   vertical-align: middle;
   background-color: #ffffff;
   background-image: none;
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -1918,7 +1918,7 @@ output {
 }
 
 .form-control:focus {
-  border-color: #black;
+  border-color: #000000;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
@@ -2250,7 +2250,7 @@ fieldset[disabled] .btn {
 .btn-default {
   color: #333333;
   background-color: #fecd06;
-  border-color: black;
+  border-color: #000000;
 }
 
 .btn-default:hover,
@@ -2259,8 +2259,8 @@ fieldset[disabled] .btn {
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
   color: #f8c700;
-  background-color: black;
-  border-color: black;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .btn-default:active,
@@ -4642,11 +4642,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-default {
   background-color: #f8f8f8;
-  border-color: black;
+  border-color: #000000;
 }
 
 .navbar-default .navbar-brand {
-  color: black;
+  color: #000000;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -4656,11 +4656,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-text {
-  color: black;
+  color: #000000;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: black;
+  color: #000000;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -4722,13 +4722,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-nav > .dropdown > a .caret {
-  border-top-color: black;
-  border-bottom-color: black;
+  border-top-color: #000000;
+  border-bottom-color: #000000;
 }
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: black;
+    color: #000000;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -4750,7 +4750,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-link {
-  color: black;
+  color: #000000;
 }
 
 .navbar-default .navbar-link:hover {
@@ -4815,7 +4815,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: black;
+  border-color: #000000;
 }
 
 .navbar-inverse .navbar-nav > .open > a,

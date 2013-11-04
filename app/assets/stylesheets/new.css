@@ -1,0 +1,118 @@
+
+.listitem {
+  margin: 10px 0px;
+  padding: 10px 0px;
+
+}
+
+a {
+  color: #000000;
+  height: 70px;
+}
+
+body {
+  padding: 100px 0px;
+  background-color: #fecd06;
+  font-color: #fecd06;
+  background-image: url("http://kcmq.com/wp-content/uploads/2013/04/1280-beer-infographic_0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fa-search {
+  font-size: 18px;
+}
+
+.fa-plus-circle {
+  font-size: 38px;
+}
+
+.fa-qrcode   {
+  font-size: 38px;
+}
+
+.fa-beer {
+  font-size: 42px;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.fa-beer:hover {
+  color: #fecd06;
+  background-color: #000000;
+}
+
+.container {
+  width: 1300px;
+  padding: 0px;
+  /*padding-bottom: 700px;*/
+
+}
+
+form {
+  padding-bottom: 500px;
+
+}
+
+.cats {
+  font-weight: bold;
+}
+
+.about {
+  width: 100%;
+}
+
+.profile_img {
+  width: 500px;
+  border: 10px solid #000000;
+}
+
+.invlinks:hover {
+  color: #fecd06;
+}
+
+#navh:hover {
+  color: #fecd06;
+  font-size: 40px;
+}
+
+.background-img {
+  padding: 0px;
+}
+
+
+li:hover {
+  font-color: #fecd06;
+  height: 70px;
+  background-color: #000000;
+}
+
+.nav {
+  height: 70px;
+ }
+
+h2 {
+  margin: 0px;
+}
+
+input, textarea {
+  background-color: #fecd06;
+  opacity: 0.5;
+}
+
+.searchform{
+  margin-top: 10px;
+}
+
+
+form {
+  padding-bottom: 0px;
+}
+
+.btn-default {
+  background-color: #fecd06;
+}
+h1 {
+  padding-top: 70px;
+}
