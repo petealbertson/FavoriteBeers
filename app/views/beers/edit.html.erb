@@ -1,0 +1,25 @@
+<div class="container">
+  <h3>Edit <%= @beer.name %></h3>
+  <%= form_tag beer_url(@beer.id), method: "patch" do %>
+
+  <%= label_tag "name", "Beer Name"  %>
+  <%= text_field_tag "name", value = @beer.name %>
+  <br>
+  <%= label_tag "brewery" %>
+  <%= text_field_tag "brewery", value = @beer.brewery %>
+  <br>
+  <%= label_tag "style" %>
+  <%= text_field_tag "style", value = @beer.style %>
+  <br>
+  <%= label_tag "nationality" %>
+  <%= text_field_tag "nationality", value = @beer.nationality %>
+  <br>
+  <%= label_tag "abv", "ABV" %>
+  <%= number_field_tag "abv", value = @beer.abv, step: 0.1  %>
+  <br>
+
+  <%= submit_tag "Save" %>
+
+
+  <% end %>
+</div>

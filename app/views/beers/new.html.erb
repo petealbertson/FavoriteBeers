@@ -1,0 +1,25 @@
+<div class="container">
+<h3>Add a Beer</h3>
+<%= form_tag beers_url, method: "post" do %>
+
+<%= label_tag "name", "Beer Name" %>
+<%= text_field_tag "name" %>
+<br>
+<%= label_tag "brewery" %>
+<%= text_field_tag "brewery" %>
+<br>
+<%= label_tag "style" %>
+<%= text_field_tag "style" %>
+<br>
+<%= label_tag "nationality" %>
+<%= text_field_tag "nationality" %>
+<br>
+<%= label_tag "abv", "ABV" %>
+<%= number_field_tag "abv", value=nil, step: 0.1 %>
+<br>
+
+<%= submit_tag "Add" %>
+
+
+<% end %>
+</div>

@@ -1,0 +1,15 @@
+<div class="container">
+  <h2><%= @beer.name %></h2>
+  <h4>by <%= @beer.brewery %></h4>
+  <span class="cats">Style: </span><%= @beer.style %>
+  <br>
+  <span class="cats">Nationality: </span><%= @beer.nationality %>
+  <br>
+  <span class="cats">ABV: </span><%= @beer.abv %>
+  <br>
+  <!-- <img src= "<%#= @beer.img %>" class="profile_img"> -->
+
+  <br>
+  <span><%= link_to "Edit", edit_beer_url(@beer.id) %></span> |
+  <span><%= link_to "Delete", delete_url(@beer.id), method: "delete" %></span>
+</div>

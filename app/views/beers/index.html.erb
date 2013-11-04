@@ -1,0 +1,13 @@
+
+<div class="container">
+  Sort by:
+  <%= link_to "Brewery", beers_url(brewery_sort: "brewery") %> |
+  <%= link_to "Name", beers_url(beer_sort: "name") %> |
+  <%= link_to "ABV", beers_url(abv_sort: "abv") %>
+  <% @beers.each do |beer| %>
+      <div class="listitem">
+        <span class="cats"><%= link_to beer.name, beer_url(beer.id) %></span> by <%= beer.brewery %>
+
+      </div>
+    <% end %>
+</div>
