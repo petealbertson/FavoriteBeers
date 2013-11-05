@@ -11,12 +11,10 @@ a {
 }
 
 body {
-  padding: 100px 0px;
+  padding: 80px 0px;
   background-color: #fecd06;
   font-color: #fecd06;
-  background-image: url("http://kcmq.com/wp-content/uploads/2013/04/1280-beer-infographic_0.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
 .fa-search {
@@ -46,8 +44,10 @@ body {
 .container {
   width: 1300px;
   padding: 0px;
-  /*padding-bottom: 700px;*/
-
+  padding-bottom: 700px;
+  background-image: url("http://kcmq.com/wp-content/uploads/2013/04/1280-beer-infographic_0.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 form {
