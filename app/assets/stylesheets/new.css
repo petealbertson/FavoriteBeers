@@ -85,7 +85,7 @@ form {
 li:hover {
   font-color: #fecd06;
   height: 70px;
-  background-color: #000000;
+  /*background-color: #000000;*/
 }
 
 .nav {
