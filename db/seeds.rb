@@ -1,3 +1,5 @@
+
+Beer.destroy_all
 Beer.create brewery: "Anheuser-Busch", name: "Budweiser",         style: "Pale Lager",       nationality: "American",  abv: 5.0, img: "http://1.bp.blogspot.com/-rVQzJfjDaUY/UGSUDQ0PM5I/AAAAAAAABrg/OaKQ1zw-hic/s1600/budweiser.jpg"
 Beer.create brewery: "DIAGEO",         name: "Guinness",          style: "Stout",            nationality: "Irish",     abv: 4.3, img: "http://glcphotographyideasincontext.files.wordpress.com/2011/03/2009-guinness-2436.jpg"
 Beer.create brewery: "Mac n' Jack's",  name: "African Amber",     style: "American Amber",   nationality: "American",  abv: 5.2, img: "http://d2qdgu53yc9lue.cloudfront.net/deal/de_2342_lg.jpg"
